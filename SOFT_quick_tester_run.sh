@@ -15,5 +15,11 @@ export TSLIB_CONSOLEDEVICE='none'
 export TSLIB_FBDEVICE='/dev/fb0'
 export TSLIB_PLUGINDIR='/usr/lib/ts'
 export QT_QPA_EGLFS_TSLIB=1 
-export QT_QPA_FB_TSLIB=1 
+export QT_QPA_FB_TSLIB=1
+
+# Debugging
+#export QT_QPA_DEBUG="1"
+#export QSG_INFO="1"
+#export QML_IMPORT_TRACE="1"
+#export QT_DEBUG_PLUGINS="1"
 
